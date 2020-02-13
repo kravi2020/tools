@@ -3,8 +3,8 @@
 #Author : Chetan Vishwakarma
 #Date : 11Oct2017
 
-$Computers = Get-Content "D:\HealthCheck_Scripts\NewScript\Servers\BackupInstances.txt"
-$OutputFile = "D:\HealthCheck_Scripts\NewScript\report\BlockingReport.htm" 
+$Computers = Get-Content "F:\HealthCheck_Scripts\NewScript\Servers\BackupInstances.txt"
+$OutputFile = "F:\HealthCheck_Scripts\NewScript\report\BlockingReport.htm" 
 
 $HTML = '<style type="text/css"> 
     #Header{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;width:100%;border-collapse:collapse;} 
